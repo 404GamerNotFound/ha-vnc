@@ -10,4 +10,4 @@ that opens the remote desktop within Home Assistant.
 This repository works with [HACS](https://hacs.xyz/). Add it as a custom repository and install the VNC integration.
 
 - Code owner: [404GamerNotFound](https://github.com/404GamerNotFound)
-- Documentation: https://Brüser.com
+- Documentation: https://github.com/404GamerNotFound/ha-vnc
