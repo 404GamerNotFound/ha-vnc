@@ -1,0 +1,2 @@
+DOMAIN = "vnc"
+DEFAULT_PORT = 5900

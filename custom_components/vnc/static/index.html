@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>VNC Viewer</title>
+    <script src="https://cdn.jsdelivr.net/npm/novnc@1.4.0/core/rfb.js"></script>
+    <style>
+      html, body, #screen {
+        height: 100%;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="screen"></div>
+    <script>
+      const params = new URLSearchParams(location.search);
+      const entry = params.get('entry');
+      const url = `${location.protocol.replace('http', 'ws')}//${location.host}/api/vnc/${entry}`;
+      const rfb = new RFB(document.getElementById('screen'), url);
+      rfb.viewOnly = false;
+    </script>
+  </body>
+</html>

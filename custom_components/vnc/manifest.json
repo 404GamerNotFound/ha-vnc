@@ -1,0 +1,12 @@
+{
+  "domain": "vnc",
+  "name": "VNC Viewer",
+  "version": "0.1.0",
+  "documentation": "https://Brüser.com",
+  "issue_tracker": "https://github.com/404GamerNotFound/ha-vnc/issues",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": ["@404GamerNotFound"],
+  "config_flow": true,
+  "iot_class": "local_push"
+}
