@@ -1,0 +1,6 @@
+{
+  "name": "VNC Viewer",
+  "domain": "vnc",
+  "render_readme": true,
+  "homeassistant": "2023.8.0"
+}

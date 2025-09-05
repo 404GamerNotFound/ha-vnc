@@ -1,0 +1,14 @@
+{
+  "title": "VNC",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to VNC",
+        "data": {
+          "host": "Host",
+          "port": "Port"
+        }
+      }
+    }
+  }
+}
